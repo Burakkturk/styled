@@ -6,7 +6,8 @@ const Div = styled.div`
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  max-width: 1000px;
+  max-width: 500px;
+  margin: auto;
 `;
 
-export default Div;
+export default Flex;

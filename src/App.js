@@ -1,5 +1,5 @@
 import { Button, DarkButton } from "./components/Button.styled";
-import { Flex } from "./components/Flex.jsx";
+import Flex from "./components/Flex";
 
 const App = () => {
   return (
