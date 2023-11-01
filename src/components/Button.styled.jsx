@@ -8,8 +8,14 @@ export const Button = styled.button`
   padding: 0.7rem 3rem;
   border-radius: 20px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  &:hover{
+  &:hover {
     cursor: pointer;
     transform: scale(0.96);
   }
+`;
+
+export const DarkButton = styled(Button)`
+  background-color: black;
+  color: white;
+  border: none;
 `;
