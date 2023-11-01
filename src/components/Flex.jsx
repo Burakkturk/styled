@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Div = styled.div`
+const Flex = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,6 +8,7 @@ const Div = styled.div`
   gap: 1rem;
   max-width: 500px;
   margin: auto;
+  background-color: ${({ bg }) => bg || "transparent"};
 `;
 
 export default Flex;
