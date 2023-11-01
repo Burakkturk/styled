@@ -9,6 +9,9 @@ const App = () => {
         <Button>Tikla</Button>
         <DarkButton>Send</DarkButton>
       </Flex>
+      <Flex bg="tomato">
+        <h1>PROPS</h1>
+      </Flex>
     </>
   );
 };
